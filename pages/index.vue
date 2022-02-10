@@ -107,8 +107,6 @@ img{
     max-width: 300px;
     margin-top: 15px;
   }
-
-
 }
 
 @media screen and (max-width: 600px){
@@ -139,7 +137,7 @@ img{
     width: min(90%, 300px);
     flex-direction: column;
     justify-content: center;
-    padding: 0 20px;
+    padding: 40px 20px 0 20px;
   }
 
   .intro-text h1 span{
