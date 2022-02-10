@@ -12,7 +12,6 @@
           <img src="/peoples-intro.svg" alt="peoples in task">
         </div>
       </main>
-
       <Footer/>
    </div>
 </template>
@@ -137,7 +136,7 @@ img{
     width: min(90%, 300px);
     flex-direction: column;
     justify-content: center;
-    padding: 40px 20px 0 20px;
+    padding: 20px 20px 0 20px;
   }
 
   .intro-text h1 span{
