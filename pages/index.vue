@@ -106,6 +106,15 @@ img{
     max-width: 300px;
     margin-top: 15px;
   }
+
+  .intro-text h1 span{
+    width: 6px;
+    height: 6px;
+    background: #35A852;
+    border-radius: 50%;
+    position: relative;
+    left: -6px;
+  }
 }
 
 @media screen and (max-width: 600px){
