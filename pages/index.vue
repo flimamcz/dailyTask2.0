@@ -69,6 +69,17 @@ img{
   font-style: italic;
 }
 
+.intro-text h1 span{
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #35A852;
+  border-radius: 50%;
+  position: relative;
+  left: -9px;
+  top: 1px;
+}
+
 @media screen and (max-width: 1130px){
   .mainContainer{
     padding: 0;
@@ -129,6 +140,12 @@ img{
     flex-direction: column;
     justify-content: center;
     padding: 0 20px;
+  }
+
+  .intro-text h1 span{
+    position: relative;
+    left: -3px;
+    top: 1px;
   }
 
 }
